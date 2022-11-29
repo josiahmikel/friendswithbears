@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Friends With Bears</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				background: black;
+				background-image: url("background.jpg");
+				background-position: center;
+				background-repeat: none;
+				background-size: cover;
+			}
+			
+			#middle {
+				display: flex;
+				height: 100%;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			#cover {
+				width: 40em;
+			}
+		</style>
+		<script>
+			function rotateTitle () {
+						
+				if (document.title == "Friends With Bears") {				
+						resolveTitle = "RESOLVE OUT FRIDAY";
+				} else {							
+					resolveTitle = "Friends With Bears";
+				}
+		
+				
+				document.title = resolveTitle;
+				setTimeout(rotateTitle,3000);
+			}
+				
+			rotateTitle();
+			</script>
+	</head>
+	<body>
+		<div id="middle">
+			<img id="cover" src="cover.png">
+		</div>
+	</body>
+</html>
