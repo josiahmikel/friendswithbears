@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>Friends With Bears</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: helvetica;
+				font-weight: bold;
+			}
+			#featuredContainer {
+				width: 100%;
+				height: 100vh;
+				position: relative;
+				overflow: hidden;
+				background: rgba(0,0,0,0.25);
+			}
+			
+			#videoBackground {
+				position: absolute;
+				z-index: -1;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				min-width: 100%;
+				min-height: 100%;
+			}
+			
+			header {
+				width: 100%;
+				height: 12em;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			header img {
+				height: 6em;
+			}
+			
+			#featured {
+				display: flex;
+				height: 65em;;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			#featured img {
+				width: 30em;
+				-moz-box-shadow: 0 0 1em #fff;
+				-webkit-box-shadow: 0 0 1em #fff;
+				box-shadow: 0px 0px 1em #fff;
+			}
+			
+			#featured a {
+				font-size: 2em;
+			}
+			
+			h1 {
+				color: white;
+				-webkit-text-stroke-width: 3px;
+				  -webkit-text-stroke-color: #FFF;
+			}
+			
+			a {
+				color: white;
+				text-decoration: none;
+				-webkit-text-stroke-width: 3px;
+				  -webkit-text-stroke-color: #FFF;
+			}
+			
+			a:hover {
+				text-shadow: 0 0 3px #FFF, 0 0 3px #FFF;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="featuredContainer">
+			<video id="videoBackground" autoplay muted loop>
+				<source src="resolve-web-clip.mp4" type="video/mp4">
+			</video>
+			<header>
+				<a href="/">
+					<img id="logo" src="friends-with-bears-logo.png">
+				</a>
+			</header>
+			<div id="featured">
+				<div id="center">
+					<center>
+					<img src="resolve.jpg">
+					<h1>PHONETEX - <br>RESOLVE OUT NOW</h1>
+					<a href="https://distrokid.com/hyperfollow/phonetex/resolve-feat-jacy-nyte--aster-sterling">LISTEN</a>
+					</center>
+				</h1>
+			</div>
+		</div>
+	</body>
+</html>
