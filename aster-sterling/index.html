@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Aster Sterling - Friends With Bears Records</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url('assets/background.jpg');
+        background-size: cover;
+        background-position: center;
+
+        margin: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #poster {
+        height: 30em;
+        width: 30em;
+        background-image: url('assets/as-poster-still.png');
+        background-size: cover;
+        background-position: center;
+
+        transform: scale(1);
+	      animation: pulse 4s infinite;
+
+        display: inline-block;
+      }
+
+      #poster:hover {
+        background-image: url('assets/as-poster-hover.png');
+      }
+
+      @keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
+}
+
+    </style>
+  </head>
+  <body>
+    <a href="https://friendswithbears.bandcamp.com/merch/aster-sterling-verdant-ep-poster" targer="_blank">
+      <div id="poster" alt="Aster Sterling Verdant EP Poster Mockup"></div>
+    </a>
+  </body>
+</html>
