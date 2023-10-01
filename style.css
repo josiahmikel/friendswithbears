@@ -1,0 +1,390 @@
+@font-face {
+	font-family: Europa;
+	src: url('assets/EuropaGroteskSH-Reg.otf');
+	}
+	
+	body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #131313;
+	font-family: Europa;
+	
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+	
+	header {
+	margin: 0 7.5% 0 7.5%;
+	padding: 0;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+	header ul {
+	list-style-type: none;
+	margin: 0;
+	}
+	
+	header li {
+	float: left;
+	margin: 0;
+	padding-top: 3px;
+	}
+	
+	li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+	padding: 1em;
+	}
+	
+	#header-logo {
+	height: 2em;
+	}
+	
+	header button {
+	background-color: #6879d0;
+	border: none;
+	color: #131313;
+	font-size: 1em;
+	font-family: Europa;
+	padding: .5em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	margin: 0;
+	cursor: pointer;
+	border-radius: 2em;
+	float: right;
+	align-items: center;
+	justify-content: center;
+	}
+	
+	button img {
+	height: 1em;
+	padding-left: .5em;
+	}
+	
+	.left {
+	width: 33%;
+	display: block;
+	float: left;
+	}
+	
+	.center {
+	width: 34%;
+	display: block;
+	float: right;
+	}
+	
+	.right {
+	width: 33%;
+	display: block;
+	float: right;
+	}
+	
+	#stupid-button {
+	padding-right: 2em;
+	}
+	
+	#spotlight {
+	margin: 0 5% 0 5%;
+	width: 90%;
+	height: auto;
+	}
+	
+	#about-us {
+	margin: 5% 7.5% 0 7.5%;
+	width: 85%;
+	height: auto;
+	background: #6879d0;
+	text-align: center;
+	border-radius: 1em;
+	}
+	
+	#about-us img {
+	height: 2em;
+	padding-bottom: 5%;
+	}
+	
+	.title {
+	width: 85%;
+	padding: 5% 0 5% 0;
+	}
+	
+	#spotlight {
+	width: 90%;
+	padding-bottom: 1%;
+	}
+	
+	h1 {
+	color: #fff;
+	font-size: 3em;
+	font-family: Europa;
+	}
+	
+	button {
+	background-color: #6879d0;
+	border: none;
+	color: #131313;
+	font-size: 1em;
+	font-family: Europa;
+	padding: .5em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	margin: 0;
+	cursor: pointer;
+	border-radius: 2em;
+	align-items: center;
+	justify-content: center;
+	}
+	
+	.release-button {
+	background-color: #131313;
+	color: #fff;
+	}
+	
+	#roster {
+	padding: 0 10%;
+	margin: 5% 0 0 0;
+	}
+	
+	
+	footer {
+	height: 40vh;
+	width: 100%;
+	}
+	
+	#footer-logo {
+	height: 30vh;
+	width: 20%;
+	padding: 0 0 0 10%;
+	margin: 5% 0 0 0;
+	float: left;
+	}
+	
+	#footer-socials {
+	height: 10vh;
+	width: 40%;
+	padding: 0 0 0 10%;
+	float: left;
+	}
+	
+	#footer-socials ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+	}
+	
+	#footer-socials li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	list-style-position: inside;
+	-webkit-padding-start: 0;
+	display: inline;
+	}
+	
+	#footer-copyright {
+	height: 10vh;
+	width: 40%;
+	padding: 0 10% 0 0;
+	float: right;
+	list-style-position: inside;
+	-webkit-padding-start: 0;
+	display: inline;
+	}
+	
+	#footer-copyright p {
+	color: #fff;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-position: inside;
+	-webkit-padding-start: 0;
+	display: inline;
+	}
+	
+	#footer-logo img {
+	height: 2em;
+	margin: 0;
+	}
+	
+	#footer-newsletter {
+	float: right;
+	width: 56%;
+	height: 30vh;
+	margin: 5% 0 0 0;
+	padding: 0 10% 0 0;
+	text-align: right;
+	
+	}
+	
+	#mc_embed_signup {
+	background: #131313;
+	color: #fff;
+	
+	clear: left;
+	font: 1em Europa;
+	width: 100%;
+	}
+	
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	
+	
+	.container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0 5% 0;
+	position: relative;
+	}
+	
+	.container .image {
+	width: 50%;
+	}
+	
+	.container img {
+	width: calc(100% - (20px * 2));
+	margin: 20px;
+	}
+	
+	.container img:hover {
+	opacity: 80%;
+	}
+	
+	#roster p {
+	color: #fff;
+	font-size: 2em;
+	}
+	
+	#roster button {
+	margin: 5% 0 5% 0;
+	}
+	
+	#roster a {
+	color: #fff;
+	}
+	
+	#releases p {
+	color: #fff;
+	font-size: 2em;
+	}
+	
+	#releases button {
+	margin: 5% 0 5% 0;
+	}
+	
+	#releases a {
+	color: #fff;
+	}
+	
+	.button-enclosure a {
+	text-decoration: none;
+	}
+	
+	#recent {
+	background: #6879d0;
+	margin: 5%;
+	height: auto;
+	border-radius: 1em;
+	}
+	
+	.bumper {
+	height: 5%;
+	width: 100%;
+	}
+	
+	.player {
+	border-radius: 1em;
+	overflow: hidden;
+	z-index: 1;
+	height: 315px;
+	width: 560px;
+	
+	}
+	
+	
+	#releases {
+	background: #6879d0;
+	margin: 5% 5%;
+	height: auto;
+	border-radius: 1em;
+	padding: 0 5%;
+	}
+	
+	
+	.release-item {
+	height: auto;
+	width: 100%;
+	border-top: 2px solid #fff;
+	display: flex;
+	align-items: center;
+	}
+	
+	.release-item img {
+	height: 18em;
+	border-radius: 1em;
+	margin: 5% 0 0 5%;
+	}
+	
+	.release-info {
+	padding-left: 5%;
+	width: 30%;
+	}
+	
+	.release-info h2 {
+	color: #FFF;
+	font-size: 3em;
+	font-weight: bold;
+	}
+	
+	.release-info p {
+	font-size: 2em;
+	}
+	
+	.button-align {
+	width: 65%;
+	margin-right: 5%;
+	}
+	.button-align button {
+	float: right;
+	}
+	
+	#release-footer {
+	height: 5%;
+	width: 100%;
+	border-top: 2px solid #fff;
+	}
+	
+	#footer-newsletter ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+	
+	#footer-newsletter p{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 2em;
+	text-decoration: none;
+	}
+	
+	#footer-newsletter li{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	}
+	
+	footer a {
+	text-decoration: underline;
+	}
